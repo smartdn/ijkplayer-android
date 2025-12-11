@@ -52,7 +52,7 @@ echo ""
 echo "--------------------"
 echo "[*] make NDK standalone toolchain"
 echo "--------------------"
-source $CURRENT_DIR/do-detect-env.sh
+. $CURRENT_DIR/do-detect-env.sh
 FF_MAKE_TOOLCHAIN_FLAGS=$IJK_MAKE_TOOLCHAIN_FLAGS
 FF_MAKE_FLAGS=$IJK_MAKE_FLAG
 FF_GCC_VER=$IJK_GCC_VER

@@ -17,8 +17,10 @@
 #
 
 CURRENT_DIR=$(dirname "$(readlink -f "$0")")
-IJK_OPENSSL_UPSTREAM=https://github.com/openssl/openssl.git
-IJK_OPENSSL_FORK=https://github.com/openssl/openssl.git
+#IJK_OPENSSL_UPSTREAM=https://github.com/openssl/openssl.git
+#IJK_OPENSSL_FORK=https://github.com/openssl/openssl.git
+IJK_OPENSSL_UPSTREAM=https://gitee.com/mirrors/openssl.git
+IJK_OPENSSL_FORK=https://gitee.com/mirrors/openssl.git
 IJK_OPENSSL_COMMIT=openssl-3.2
 IJK_OPENSSL_LOCAL_REPO=$CURRENT_DIR/extra/openssl
 
